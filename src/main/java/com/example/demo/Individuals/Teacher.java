@@ -1,4 +1,6 @@
-package com.example.demo;
+package com.example.demo.Individuals;
+
+import com.example.demo.Individuals.Learner;
 
 public interface Teacher {
 

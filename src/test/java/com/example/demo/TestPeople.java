@@ -1,5 +1,7 @@
 package com.example.demo;
 
+import com.example.demo.Groups.Students;
+import com.example.demo.Individuals.Student;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -1,4 +1,7 @@
-package com.example.demo;
+package com.example.demo.Groups;
+
+import com.example.demo.Groups.People;
+import com.example.demo.Individuals.Student;
 
 import java.util.Iterator;
 

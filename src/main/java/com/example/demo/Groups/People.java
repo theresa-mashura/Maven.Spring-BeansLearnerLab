@@ -1,4 +1,6 @@
-package com.example.demo;
+package com.example.demo.Groups;
+
+import com.example.demo.Individuals.Person;
 
 import java.util.ArrayList;
 import java.util.List;

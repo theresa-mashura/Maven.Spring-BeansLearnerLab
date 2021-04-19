@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.Individuals;
 
 import java.util.stream.StreamSupport;
 

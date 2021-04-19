@@ -1,4 +1,6 @@
-package com.example.demo;
+package com.example.demo.Groups;
+
+import com.example.demo.Individuals.Teacher;
 
 public class Classroom {
 

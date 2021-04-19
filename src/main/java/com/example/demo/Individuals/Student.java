@@ -1,6 +1,6 @@
-package com.example.demo;
+package com.example.demo.Individuals;
 
-public class Student extends Person implements Learner{
+public class Student extends Person implements Learner {
 
     private double totalStudyTime;
 
