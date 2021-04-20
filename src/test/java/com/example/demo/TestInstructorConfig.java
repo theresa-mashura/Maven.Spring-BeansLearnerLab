@@ -59,7 +59,6 @@ public class TestInstructorConfig {
 
         // Act
         String actual = instructors.toString();
-        System.out.println(actual);
 
         // Assert
         Assert.assertEquals(expected, actual);
