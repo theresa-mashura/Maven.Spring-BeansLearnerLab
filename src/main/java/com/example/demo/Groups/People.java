@@ -43,4 +43,15 @@ public abstract class People<PersonType extends Person> implements Iterable<Pers
     public List<PersonType> findAll() {
         return this.personList;
     }
+
+    public String toString() {
+        StringBuilder s = new StringBuilder();
+        s.append("[");
+        for (PersonType p : this.personList) {
+            String type = p.getClass().getSimpleName();
+            s.append(type).append(p.toString());
+        }
+        s.append("]");
+        return s.toString();
+    }
 }

@@ -3,8 +3,10 @@ package com.example.demo.Configs;
 import com.example.demo.Groups.Instructors;
 import com.example.demo.Individuals.Instructor;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
+@Configuration
 public class InstructorsConfig {
 
     @Bean
